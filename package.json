@@ -1,0 +1,23 @@
+{
+  "name": "back-3",
+  "version": "1.0.0",
+  "description": "día 3 módulo 3",
+  "main": "clase.js",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Martorell93/back-3.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Martorell93/back-3/issues"
+  },
+  "homepage": "https://github.com/Martorell93/back-3#readme"
+}
