@@ -1,4 +1,4 @@
-//Reto 1
+//Reto 1 (servidor con HTTP)
 const { stat } = require("fs");
 const http = require("http");
 
@@ -7,7 +7,7 @@ const server = http.createServer(function (request, response) {
     console.log("URL: ", request.url);
     console.log("Método: ", request.method);
     console.log("User agent: ", request.headers["user-agent"]);
-    console.log("Content type: ", request.headers["Content-Type"]);
+    console.log("Content type: ", request.headers["content-type"]);
     console.log("Content length: ", request.headers["content-length"]);
     response.writeHead(200, {"Content-Type": "application/json"});
 
@@ -23,7 +23,7 @@ const server = http.createServer(function (request, response) {
 
 server.listen(3000);
 
-//Reto 3
+//Reto 3 (servidor con Express)
 const express = require("express");
 const app = express();
 
